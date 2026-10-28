@@ -66,6 +66,13 @@ Add screenshots to the `screenshots/` folder and use the following links:
 ### Target Group Health
 ![Target group health](screenshots/target-group-health.png)
 
+## EC2 User Data and Bash Scripting
+
+Used EC2 User Data to explore automated instance initialization
+with a Bash script.
+
+[View EC2 User Data Bash Script](ec2-user-data.sh)
+
 ## Key Takeaways
 - Understood how EC2 instances host applications.
 - Learned how launch templates support repeatable instance creation.
