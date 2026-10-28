@@ -25,6 +25,21 @@ flowchart TD
     LT[Launch Template] -. instance configuration .-> ASG
 ```
 
+## AWS Architecture Diagram
+
+The following diagram illustrates the relationship between
+the Application Load Balancer, Target Group, EC2 instances,
+Auto Scaling Group, and Launch Template.
+
+![AWS Architecture](aws-architecture.jpeg)
+
+## Website Preview
+
+The screenshot below shows the web application associated
+with this hands-on learning project.
+
+![Website Preview](website-demo.png)
+
 ## AWS Services and Learning
 | Service | Practical learning |
 |---|---|
