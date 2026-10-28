@@ -81,6 +81,28 @@ The screenshots document the configuration and status visible at the time of cap
 - Public screenshots should have account IDs and lab usernames redacted.
 - This repository contains documentation and screenshots, not production credentials or deployment automation.
 
+## Testing and Validation
+
+The AWS setup was tested to verify the following:
+
+- Application Load Balancer status: Active.
+- Target Group health checks: Healthy.
+- Application accessibility: Verified through the Load Balancer DNS name.
+- EC2 instances: Managed through an Auto Scaling Group.
+- Launch Template: Used to define EC2 instance configuration.
+
+## Key Learnings
+
+- Configured and explored EC2 instances.
+- Learned how Launch Templates support consistent instance configuration.
+- Explored Auto Scaling Group capacity settings.
+- Understood how an Application Load Balancer distributes traffic through a Target Group.
+- Verified target health and application access through the load balancer.
+
+## Project Purpose
+
+This repository documents hands-on learning from AWS Cloud Technical Essentials. It is an educational exercise and not a claim of a production-grade deployment.
+
 ## Learning Source
 AWS Cloud Technical Essentials
 
