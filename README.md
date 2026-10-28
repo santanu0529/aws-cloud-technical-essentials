@@ -48,9 +48,6 @@ Add screenshots to the `screenshots/` folder and use the following links:
 ### Auto Scaling Group
 ![Auto Scaling group](screenshots/auto-scaling-group.png)
 
-### Application Load Balancer
-![Application Load Balancer](screenshots/application-load-balancer.png)
-
 ### Target Group Health
 ![Target group health](screenshots/target-group-health.png)
 
