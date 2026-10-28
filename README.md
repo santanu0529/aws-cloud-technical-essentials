@@ -75,18 +75,18 @@ with a Bash script.
 
 ## This script performs the following tasks:
 
-Installs system updates
-Installs a source repository so the Node.js installer can be downloaded
-Installs Node.js
-Installs the EPEL repository that provides additional options for package installation
-Installs the stress package to stress the CPU
-Downloads the application code
-Creates a dedicated directory for the web application
-Downloads and deploys (extracts) the application into the specified directory
-Tells the application the bucket where the images are available
-Tells the application the Region where the application is running
-Installs the application dependencies
-Starts the web application
+-Installs system updates
+-Installs a source repository so the Node.js installer can be downloaded
+-Installs Node.js
+-Installs the EPEL repository that provides additional options for package installation
+-Installs the stress package to stress the CPU
+-Downloads the application code
+-Creates a dedicated directory for the web application
+-Downloads and deploys (extracts) the application into the specified directory
+-Tells the application the bucket where the images are available
+-Tells the application the Region where the application is running
+-Installs the application dependencies
+-Starts the web application
 
 ## Key Takeaways
 - Understood how EC2 instances host applications.
