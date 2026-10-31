@@ -1,9 +1,17 @@
-# aws-cloud-technical-essentials
-Hands-on AWS cloud learning: EC2, Launch Templates, Auto Scaling, Application Load Balancer and Target group health checks.
+# aws-high-avaliability-3-tier-web-application
+Hands-on AWS cloud learning: EC2, Launch Templates, Auto Scaling, Application Load Balancer, Target group health checks, Amazon DynamoDB, Amazon S3, AWS IAM and Amazon CloudWatch.
 
 ## Overview
 This repository documents my practical learning from AWS Cloud Technical Essentials. It covers core AWS infrastructure services and how they can work together to host and scale a web application.
 
+## The Configured Web Application Architecture Includes:
+- Presentation Layer: Application Load Balancer(ALB).
+- Application Layer: EC2 instances with Auto Scaling across two Availability Zones.
+- Data Layer: Amazon DynamoDB.
+- Storage: Amazon S3 for image storage.
+- Security: AWS IAM.
+- Monitoring: Amazon CloudWatch.
+  
 ## Objectives
 - Understand AWS Identity and Access Management (IAM).
 - Launch an EC2 instance for application hosting.
